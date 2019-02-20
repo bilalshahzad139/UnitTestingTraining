@@ -4,3 +4,13 @@
 /Sample1/AppHelper/obj
 /Sample1/MainConsoleApp/bin
 /Sample1/MainConsoleApp/obj
+/Sample2/AppBAL/bin
+/Sample2/AppBAL/obj
+/Sample2/AppBAL.Tests/obj
+/Sample2/AppBAL.Tests/bin
+/Sample2/AppHelper/obj
+/Sample2/AppHelper/bin
+/Sample2/MainConsoleApp/bin
+/Sample2/MainConsoleApp/obj
+/Sample2/TestResults
+/Sample2/packages
