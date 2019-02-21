@@ -1,0 +1,36 @@
+﻿using AppHelper;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace AppBAL
+{
+    public class Magician
+    {
+        IMagicHelper _magHelperObj;
+
+        public Magician(IMagicHelper pMagHelper)
+        {
+            _magHelperObj = pMagHelper;
+        }
+        public int DoMagic(String param)
+        {
+            if (param.Equals("ABC"))
+                return 10;
+            else if (param.Equals("XYZ"))
+                return 20;
+            else
+                return 30;
+        }
+
+        public int CalculateMagicCost(int pMagicTricks)
+        {
+            if (_magHelperObj.GetMagicComplexity(pMagicTricks) > 10)
+                return 100;
+            else
+                return 50;
+        }
+    }
+}
